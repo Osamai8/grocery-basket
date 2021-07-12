@@ -72,6 +72,7 @@ const StyledDiv = styled.div`
     align-items: center;
     justify-content: center;
     height:15vh;
+    width: 100vw;
     i{
       font-size:3rem;
       margin:0rem 2rem;

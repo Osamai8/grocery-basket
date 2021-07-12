@@ -1,10 +1,32 @@
 *{
   margin:0;
-  padding:0;
-  box-sizing: border-box;
+    padding:0;
+    box-sizing:border-box;
 }
-body,html{
-  margin:1rem 1.5rem;
-  background-color: white;
-  font-family: 'Caveat', cursive;
+body{
+font-family: 'Caveat', cursive;
+@media (min-width:768px) {
+  font-size: 70%;
+  
 }
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(35, 217, 151 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #1b1b1b75;
+  border-radius: 20px;
+  border: transparent;
+}
+
+

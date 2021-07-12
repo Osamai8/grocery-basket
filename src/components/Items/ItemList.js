@@ -30,7 +30,7 @@ i{
     color: #14a5867d;
 }
     h1{
-        width:100vw;
+        width:90vw;
     }
 `;
 

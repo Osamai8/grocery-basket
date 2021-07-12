@@ -17,7 +17,7 @@ const Basket = ({ item, removeItem }) => {
 const StyledDiv = styled.div`
     background: #dbdbdb;
     border-radius: 10rem;
-    width:12rem;
+    width:13rem;
     margin:1rem;
     cursor: pointer;
     transition: background 1s ease;
